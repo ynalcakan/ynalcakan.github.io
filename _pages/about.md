@@ -6,7 +6,7 @@ subtitle: PhD Candidate at <a href="https://en.iyte.edu.tr/" class="page-descrip
 
 profile:
   align: left
-  image: profile.jpgs
+  image: profile.jpg
   address: >
     <p>Urla, Izmir, Turkey</p>
 
