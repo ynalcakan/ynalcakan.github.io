@@ -2,23 +2,38 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: PhD Candidate at <a href="https://en.iyte.edu.tr/" class="page-description" target="_blank">Izmir Institute of Technology</a>. Member of <a href="https://cvrg-iyte.github.io/" class="page-description" target="_blank">Computer Vision Research Group</a>.
 
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: left
+  image: logo.png
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Urla, Izmir, Turkey</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I'm a Ph.D. Student who currently working on a TUBITAK research project at [Computer Vision Research Group - CVRG](http://cvrg.iyte.edu.tr) - [Izmir Institute of Technology](http://www.iyte.edu.tr/) in Izmir.
+My work interests: AI, ML, Computer vision, Behaviour prediction and Data visualization. 
+  
+About personal info,
+I love reading about psychology, sociology, neuroscience, philosophy.
+As you can understand, [GEB](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach) is like a holy book for me!
+And I've a new hobby these days "analog photography". It's like looking at this modern world
+in a [vintage view](http://www.flickr.com/106092908@N08).
+> “To those who can hear me, I say, do not despair.
+> The misery that is now upon us is but the passing of greed.
+> The bitterness of men who fear the way of human progress.
+> The hate of men will pass, and dictators die.
+> And the power they took from the people will return to the people.
+> And so long as men die, liberty will never perish.
+> Don't give yourselves to these unnatural men.
+> Machine men with machine minds and machine hearts!
+> You are not machines, you are not cattle, you are men!
+> You, the people, have the power to make this life free and beautiful.
+> To make this life a wonderful adventure.
+> Let us use that power!
+> Let us all unite!.” 
+> ― Charlie Chaplin - From the movie The Great Dictator

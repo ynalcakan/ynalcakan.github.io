@@ -3,22 +3,21 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-email: you@example.com
+first_name: Yağız
+middle_name: 
+last_name: Nalçakan
+email: yagiznalcakan[at]gmail[dot]com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: yagiz-nalcakan, academics, computer-vision, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🔥 # the emoji used as the favicon
-url: https://alshedivat.github.io # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/
+icon:  # the emoji used as the favicon
+url: https://ynalcakan.github.io # the base hostname & protocol for your site
+baseurl: / # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
@@ -52,29 +51,29 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: ynalcakan
 gitlab_username: # your GitLab user name
-twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
-medium_username: # your Medium username
-quora_username: # your Quora username
-publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
+twitter_username: yagiznalcakan
+linkedin_username: yagiznalcakan
+scholar_userid: ZNENAEAAAAAJ
+orcid_id: 0000-0001-8867-842X
+medium_username: ynalcakan
+quora_username: Ya%C4%9F%C4%B1z-Nal%C3%A7akan
+publons_id: AAJ-5131-2020
+research_gate_profile: https://www.researchgate.net/profile/Yagiz-Nalcakan
 blogger_url: # your blogger URL
-work_url: # work page URL
+work_url: https://ceng.iyte.edu.tr/tr/people/yagiz-nalcakan/
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
-dblp_url: # your DBLP profile url
-stackoverflow_id: #your stackoverflow id
+dblp_url: https://dblp.org/pid/235/8284
+stackoverflow_id: "users/5106987/yağız-nalçakan"
 
 rss_icon: true
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  You can contact me via e-mail or twitter.
 
-google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
+google_analytics:  UA-85007572-1 # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
@@ -83,8 +82,8 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: Yağız Nalçakan's Personal Page  # your blog must have a name for it to show up in the nav bar
+blog_description: 
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -92,7 +91,7 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: ynalcakan # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # -----------------------------------------------------------------------------
