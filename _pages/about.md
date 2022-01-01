@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 I'm a Ph.D. Student who currently working on a TUBITAK research project at [Computer Vision Research Group - CVRG](http://cvrg.iyte.edu.tr) - [Izmir Institute of Technology](http://www.iyte.edu.tr/) in Izmir.
-My work interests: AI, ML, Computer vision, Behaviour prediction and Data visualization.
+My work interests: Deep Learning, Computer vision, Behaviour prediction and Data visualization.
 
 About personal info,
 I love reading about psychology, sociology, neuroscience, philosophy.
