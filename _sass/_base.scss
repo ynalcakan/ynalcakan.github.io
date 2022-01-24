@@ -14,6 +14,7 @@ hr {
 
 a, table.table a {
   color: var(--global-theme-color);
+  font-weight: bolder;
   &:hover {
     color: var(--global-theme-color);
     text-decoration: underline;
