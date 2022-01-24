@@ -1,62 +1,11 @@
 ---
 layout: page
-title: teaching
 permalink: /teaching/
-description: Materials of Assisted Lectures
+title: teaching
+description: Materials for courses you taught. Replace this text with your description.
 nav: true
-display_categories: [as TA, as Lecturer]
-horizontal: false
 ---
-<!-- pages/teaching.md -->
 
-<div class="teaching">
-{%- if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized teaching -->
-  {%- for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_teaching = site.teaching | where: "category", category -%}
-  {%- assign sorted_teaching = categorized_teaching | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
-  <div class="container">
-    <div class="row row-cols-2">
-    {%- for project in sorted_teaching -%}
-      {% include projects_horizontal.html %}
-    {%- endfor %}
-    </div>
-  </div>
-  {%- else -%}
-  <div class="grid">
-    {%- for project in sorted_teaching -%}
-      {% include projects.html %}
-    {%- endfor %}
-  </div>
-  {%- endif -%}
-  {% endfor %}
+For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
 
-{%- else -%}
-
-<!-- Display teaching without categories -->
-
-{%- assign sorted_teaching = site.teaching | sort: "importance" -%}
-
-<!-- Generate cards for each project -->
-
-{% if page.horizontal -%}
-
-<div class="container">
-    <div class="row row-cols-2">
-    {%- for project in sorted_teaching -%}
-      {% include projects_horizontal.html %}
-    {%- endfor %}
-    </div>
-  </div>
-  {%- else -%}
-  <div class="grid">
-    {%- for project in sorted_teaching -%}
-      {% include projects.html %}
-    {%- endfor %}
-  </div>
-  {%- endif -%}
-{%- endif -%}
-</div>
+Organize your courses by years, topics, or universities, however you like!
