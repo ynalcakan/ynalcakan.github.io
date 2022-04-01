@@ -88,7 +88,7 @@ permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false
 
 # Comments
 disqus_shortname: ynalcakan # put your disqus shortname
@@ -202,8 +202,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Nalcakan
-  first_name: [Yagiz, Y.]
+  last_name: [Nalcakan, Nalçakan]
+  first_name: [Yagiz, Yağız, Y.]
 
   style: apa
   locale: en
@@ -259,7 +259,7 @@ jekyll-diagrams:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false  # enables google analytics
+enable_google_analytics:    true  # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
 enable_google_verification: false  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
