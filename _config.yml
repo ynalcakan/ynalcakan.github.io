@@ -202,8 +202,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: [Nal{\c{c}}akan, Nalcakan, Nalçakan]
-  first_name: [Ya{\u{g}}{\i}z, Yagiz, Yağız, Y.]
+  last_name: [Nalcakan, Nalçakan]
+  first_name: [Yagiz, Yağız, Y.]
 
   style: apa
   locale: en
