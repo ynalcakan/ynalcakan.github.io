@@ -88,7 +88,7 @@ permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
-  enabled: false
+  enabled: true
 
 # Comments
 disqus_shortname: ynalcakan # put your disqus shortname
@@ -202,8 +202,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: [Nalcakan, Nalçakan]
-  first_name: [Yagiz, Yağız, Y.]
+  last_name: [Nal{\c{c}}akan, Nalcakan, Nalçakan]
+  first_name: [Ya{\u{g}}{\i}z, Yagiz, Yağız, Y.]
 
   style: apa
   locale: en
