@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /others/
-title: others
+permalink: /teaching/
+title: teaching
 description: 
 nav: true
 published: true
