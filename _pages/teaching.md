@@ -3,7 +3,7 @@ layout: page
 permalink: /others/
 title: others
 description: 
-nav: false
+nav: true
 published: true
 ---
 ##### Teaching Assistant
