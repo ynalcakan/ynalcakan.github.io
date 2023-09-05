@@ -1,11 +1,17 @@
 ---
 layout: page
-permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
-nav: true
+permalink: /others/
+title: others
+description: 
+nav: false
 published: true
 ---
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+##### Teaching Assistant
 
-Organize your courses by years, topics, or universities, however you like!
+* Image Understanding (CENG391)
+* Artificial Intelligence (CENG461)
+* Introduction to Machine Learning (CENG463)
+* Introduction to Deep Learning (CENG506)
+* Analysis and Design of Algorithms (CENG218)
+* Probability and Statistics (CENG222)
+* Programming Basisc (CENG113)
