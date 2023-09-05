@@ -35,7 +35,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 800px
+max_width: 1200px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -53,7 +53,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: ynalcakan
 gitlab_username: # your GitLab user name
-twitter_username: yagiznalcakan
+twitter_username: yagiz_nalcakan
 linkedin_username: yagiznalcakan
 scholar_userid: ZNENAEAAAAAJ
 orcid_id: 0000-0001-8867-842X
@@ -62,13 +62,13 @@ quora_username:
 publons_id: AAJ-5131-2020
 research_gate_profile: Yagiz-Nalcakan
 blogger_url: # your blogger URL
-work_url: https://ceng.iyte.edu.tr/tr/people/yagiz-nalcakan/
+work_url: https://cvrg-iyte.github.io/
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: https://dblp.org/pid/235/8284
 stackoverflow_id: "5106987"
 
-rss_icon: true
+rss_icon: false
 
 contact_note: >
   You can contact me via e-mail or twitter.
@@ -84,7 +84,7 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 blog_name: Yağız Nalçakan's Personal Page  # your blog must have a name for it to show up in the nav bar
 blog_description: 
-permalink: /blog/:year/:title/
+permalink: /research/:year/:title/
 
 # Pagination
 pagination:
@@ -192,9 +192,9 @@ jekyll-archives:
     tag: archive-tag
     category: archive-category
   permalinks:
-    year: '/blog/:year/'
-    tag: '/blog/tag/:name/'
-    category: '/blog/category/:name/'
+    year: '/research/:year/'
+    tag: '/research/tag/:name/'
+    category: '/research/category/:name/'
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
