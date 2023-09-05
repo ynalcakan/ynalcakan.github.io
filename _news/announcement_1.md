@@ -3,4 +3,4 @@ layout: post
 date: 2022-03-26 09:04:59
 inline: true
 ---
-Latest work titled “Monocular Vision-based Prediction of Cut-in Maneuvers with LSTM Networks” is available on [ArXiV.org](https://arxiv.org/abs/2203.10707).
+Our work "Monocular Vision-based Prediction of Cut-in Manoeuvers with LSTM Networks" is published on [Springer Nature CCIS](https://link.springer.com/chapter/10.1007/978-3-031-40395-8_8).
