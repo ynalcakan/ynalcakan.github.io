@@ -1,12 +1,12 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
+title: Research
+permalink: /research/
 description: Collection of Research projects.
 nav: true
 display_categories: [Research]
 horizontal: false
-published: false
+published: true
 ---
 <!-- pages/projects.md -->
 
