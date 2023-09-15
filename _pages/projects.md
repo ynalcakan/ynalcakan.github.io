@@ -6,7 +6,7 @@ description: Collection of Research projects.
 nav: true
 display_categories: [Research]
 horizontal: false
-published: true
+published: false
 ---
 <!-- pages/projects.md -->
 
