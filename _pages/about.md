@@ -5,7 +5,7 @@ permalink: /
 subtitle: Postdoctoral Fellow in <a href="http://stl.yonsei.ac.kr/" class="page-description" target="_blank">Seamless Transportation Lab</a> at <a href="https://www.yonsei.ac.kr/en_sc/" class="page-description" target="_blank">Yonsei University</a>.
 
 profile:
-  align: left
+  align: right
   image: profile.jpg
 
 news: true  # includes a list of news items
