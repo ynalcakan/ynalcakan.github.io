@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoctoral Fellow in <a href="http://stl.yonsei.ac.kr/" class="page-description" target="_blank">Seamless Transportation Lab</a> at <a href="https://www.yonsei.ac.kr/en_sc/" class="page-description" target="_blank">Yonsei University</a>.
+subtitle: Postdoctoral Research Fellow in <a href="https://www.yonsei.ac.kr/en_sc/" class="page-description" target="_blank">Yonsei University</a>.
 
 profile:
   align: right
@@ -19,7 +19,7 @@ I received my Ph.D. in Computer Science from the [Izmir Institute of Technology]
 <br><br>
 My current research interests revolve around computer vision and deep learning, with a specialization in multispectral camera systems, perception in adverse weather scenarios, representation learning, and vision-language modeling.
 <br><br>
-Current directions include:
+My current research include:
 <br>
 * **Multispectral perception:** designing datasets and architectures that fuse visible and infrared modalities for detection, segmentation, and depth estimation.
 * **Image translation and representation learning:** leveraging Vision Foundation Models for RGB-to-Multispectral domain adaptation and spectral translation.
