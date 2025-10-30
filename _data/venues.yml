@@ -5,3 +5,19 @@
 "CCIS":
   url: https://www.springer.com/series/7899
   color: "#fbb85d"
+
+"ICCV":
+  url: "https://iccv.thecvf.com/"
+  color: "#ab295d"
+
+"ICCVw":
+  url: "https://iccv.thecvf.com/"
+  color: "#ab295d"
+
+"IEEE":
+  url: "https://ieeexplore.ieee.org/"
+  color: "#00629B"
+
+"arXiv":
+  url: "https://arxiv.org/"
+  color: "#b31b1b"
