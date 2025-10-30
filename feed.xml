@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://ynalcakan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ynalcakan.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-10-30T05:45:22+00:00</updated><id>https://ynalcakan.github.io/feed.xml</id><title type="html">blank</title><subtitle></subtitle><entry><title type="html"></title><link href="https://ynalcakan.github.io/2025/10/30/2020-09-28-twitter.html" rel="alternate" type="text/html" title="" /><published>2025-10-30T05:45:22+00:00</published><updated>2025-10-30T05:45:22+00:00</updated><id>https://ynalcakan.github.io/2025/10/30/2020-09-28-twitter</id><content type="html" xml:base="https://ynalcakan.github.io/2025/10/30/2020-09-28-twitter.html"><![CDATA[<h1 id="latest-tweets">Latest Tweets</h1>
+
+<p>An example of pulling from a timeline:</p>
+<div class="jekyll-twitter-plugin"><a class="twitter-timeline" data-width="500" data-tweet-limit="5" href="https://twitter.com/yagiz_nalcakan?ref_src=twsrc%5Etfw">Tweets by yagiz_nalcakan</a>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>]]></content><author><name></name></author></entry></feed>
