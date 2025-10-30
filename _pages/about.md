@@ -17,9 +17,9 @@ I am a Postdoctoral Fellow at the [Seamless Trans-X Lab (STL)](http://stl.yonsei
 
 I received my Ph.D. in Computer Science from the [Izmir Institute of Technology](https://en.iyte.edu.tr/), where my dissertation focused on vehicle maneuver detection for advanced driver assistance systems (ADAS) under the supervision of [Prof. Dr. Yalin Bastanlar](https://ceng.iyte.edu.tr/people/yalin-bastanlar/). My doctoral research focused on vehicle maneuver detection for advanced driver assistance systems (ADAS). During my doctoral studies, I also spent a term as a visiting researcher at [Seoul National University](https://en.snu.ac.kr/)'s Vehicle Dynamics and Control Laboratory ([VDCL](https://vdcl.snu.ac.kr/)) & the Future Mobility Technology Center ([FMTC](https://fmtc.snu.ac.kr/)) supported by a research scholarship from TUBITAK (The Scientific and Technological Research Council of Turkey).
 <br><br>
-My current research interests revolve around computer vision and deep learning, with a specialization in multispectral camera systems, perception in adverse weather scenarios, representation learning, and vision-language modeling.
+My research interests revolve around computer vision and deep learning, with a specialization in multispectral camera systems, perception in adverse weather scenarios, representation learning, and vision-language modeling.
 <br><br>
-My current research include:
+My current research focus include:
 <br>
 * **Multispectral perception:** designing datasets and architectures that fuse visible and infrared modalities for detection, segmentation, and depth estimation.
 * **Image translation and representation learning:** leveraging Vision Foundation Models for RGB-to-Multispectral domain adaptation and spectral translation.
