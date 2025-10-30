@@ -15,7 +15,8 @@ layout: default
           {% if page.profile -%}
           <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
             {%- if page.profile.image %}
-              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+              {%- assign profile_image_path = page.profile.image | prepend: '/assets/img/' | relative_url -%}
+
               {% include figure.html 
               path=profile_image_path 
               class="img-fluid z-dept-1 rounded" -%}
