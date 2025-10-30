@@ -6,7 +6,7 @@ subtitle: Postdoctoral Fellow in <a href="http://stl.yonsei.ac.kr/" class="page-
 
 profile:
   align: right
-  image: profile.jpg
+  image: assets/img/profile.jpg
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
