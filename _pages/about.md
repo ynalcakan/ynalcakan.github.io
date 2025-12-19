@@ -5,8 +5,7 @@ permalink: /
 subtitle: Postdoctoral Research Fellow in <a href="https://www.yonsei.ac.kr/en_sc/" class="page-description" target="_blank">Yonsei University</a>.
 
 profile:
-  align: right
-  image: profile.jpg
+  align: center
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
