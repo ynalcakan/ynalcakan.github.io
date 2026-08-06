@@ -8,14 +8,14 @@ middle_name:
 last_name: Nalçakan, PhD
 email: yagiznalcakan[at]gmail[dot]com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  
+  Postdoctoral researcher in computer vision and multispectral perception for autonomous systems at Yonsei University.
 footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: yagiz-nalcakan, academics, computer-vision, portfolio-website  # add your own keywords or leave empty
+  Built with <a href="http://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a> and <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener">al-folio</a>.
+  Hosted on <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>.
+keywords: yagiz-nalcakan, computer-vision, multispectral-imaging, autonomous-driving, SWIR, infrared, deep-learning
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon:  # the emoji used as the favicon
+icon: 📷 # the emoji used as the favicon
 url: https://ynalcakan.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
@@ -35,7 +35,7 @@ navbar_fixed: false
 footer_fixed: false
 
 # Dimensions
-max_width: 1000px
+max_width: 960px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -43,9 +43,9 @@ max_width: 1000px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: https://ynalcakan.github.io/assets/img/profile-placeholder.svg
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -70,8 +70,7 @@ stackoverflow_id: "5106987"
 
 rss_icon: false
 
-contact_note: >
-  You can contact me via e-mail or twitter.
+contact_note: > # Best reached by email. Profiles below link to Scholar, ORCID, GitHub, and related academic pages.
 
 google_analytics:  UA-85007572-1 # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
@@ -108,7 +107,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_limit: 7
+news_limit: 8
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

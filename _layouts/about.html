@@ -3,65 +3,65 @@ layout: default
 ---
 
 <!-- about.html -->
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-      {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
+<div class="post about-page">
+  <header class="hero">
+    <div class="hero-copy">
+      <h1 class="post-title">
+        {% if site.title == "blank" -%}
+          <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
+        {%- else -%}
+          {{ site.title }}
+        {%- endif %}
+      </h1>
+      <p class="desc">{{ page.subtitle }}</p>
+      {% if page.hero_note -%}
+      <p class="hero-note">{{ page.hero_note }}</p>
+      {%- endif %}
+    </div>
   </header>
 
   <article>
-    {% if page.profile -%}
-    <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-      {%- if page.profile.image %}
-      {%- assign profile_image_path = page.profile.image | prepend: '/assets/img/' | relative_url -%}
-
-      {% include figure.html
-      path=profile_image_path
-      class="img-fluid z-dept-1 rounded" -%}
-      {% endif -%}
-      {%- if page.profile.address %}
-      <div class="address">
-        {{ page.profile.address }}
+    <section class="about-bio">
+      {% if page.profile -%}
+      <div class="profile profile-card float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+        {%- if page.profile.image %}
+        {%- assign profile_image_path = page.profile.image | prepend: '/assets/img/' | relative_url -%}
+        {%- capture profile_alt -%}{{ site.first_name }} {{ site.last_name | remove: ', PhD' | remove: ', Ph.D.' }}{%- endcapture -%}
+        <img class="img-fluid profile-photo rounded" src="{{ profile_image_path }}" alt="{{ profile_alt | strip }}">
+        {%- else %}
+        <div class="profile-placeholder" aria-hidden="true">YN</div>
+        {%- endif %}
+        {%- if page.profile.address %}
+        <div class="address">
+          {{ page.profile.address }}
+        </div>
+        {%- endif %}
       </div>
       {%- endif %}
-    </div>
-    {%- endif %}
 
-    <div class="clearfix">
-      {{ content }}
-    </div>
+      <div class="clearfix">
+        {{ content }}
+      </div>
+    </section>
 
     {%- if page.social %}
-    <!-- Social -->
-    <div class="social">
+    <section class="social" aria-label="Contact and profiles">
       <div class="contact-icons">
         {% include social.html %}
       </div>
-
-      <div class="contact-note">
-        {{ site.contact_note }}
-      </div>
-
-    </div>
+    </section>
     {%- endif %}
 
     {% if page.news -%}
-    <!-- News -->
     {%- include news.html %}
     {%- endif %}
+
     {% if page.selected_papers -%}
-    <!-- Selected papers -->
     {%- include selected_papers.html %}
     {%- endif %}
 
     {% if page.service -%}
-    <!-- Service -->
     {%- include service.html %}
     {%- endif %}
-
   </article>
-
 </div>

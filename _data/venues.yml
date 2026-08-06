@@ -14,10 +14,54 @@
   url: "https://iccv.thecvf.com/"
   color: "#ab295d"
 
+"WACV":
+  url: "https://wacv.thecvf.com/"
+  color: "#8b3a62"
+
 "IEEE":
   url: "https://ieeexplore.ieee.org/"
+  color: "#00629B"
+
+"Access":
+  url: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639"
   color: "#00629B"
 
 "arXiv":
   url: "https://arxiv.org/"
   color: "#b31b1b"
+
+"CVIU":
+  url: "https://www.sciencedirect.com/journal/computer-vision-and-image-understanding"
+  color: "#0f766e"
+
+"INFFUS":
+  url: "https://www.sciencedirect.com/journal/information-fusion"
+  color: "#1d4ed8"
+
+"Measurement":
+  url: "https://www.sciencedirect.com/journal/measurement"
+  color: "#334155"
+
+"ApplSci":
+  url: "https://www.mdpi.com/journal/applsci"
+  color: "#2563eb"
+
+"Tech":
+  url: "https://www.mdpi.com/journal/technologies"
+  color: "#0e7490"
+
+"INFUS":
+  url: "https://link.springer.com/conference/infus"
+  color: "#7c3aed"
+
+"IGI":
+  url: "https://www.igi-global.com/"
+  color: "#475569"
+
+"MOD":
+  url: "https://link.springer.com/conference/modes"
+  color: "#b45309"
+
+"TR":
+  url: "#"
+  color: "#64748b"

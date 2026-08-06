@@ -1,25 +1,25 @@
-          
-          <div class="news">
-            <h2>news</h2>
-            {% if site.news  -%} 
-            <div class="table-responsive">
-              <table class="table table-sm table-borderless">
-              {%- assign news = site.news | reverse -%} 
-              {% for item in news limit: site.news_limit %} 
-                <tr>
-                  <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
-                  <td>
-                    {% if item.inline -%} 
-                      {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                    {%- else -%} 
-                      <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                    {%- endif %} 
-                  </td>
-                </tr>
-              {%- endfor %} 
-              </table>
-            </div>
-          {%- else -%} 
-            <p>No news so far...</p>
-          {%- endif %} 
-          </div>
+<section class="news site-section" aria-labelledby="news-heading">
+  <div class="section-header">
+    <h2 id="news-heading">News</h2>
+  </div>
+
+  {% if site.news -%}
+  <ol class="news-list">
+    {%- assign news = site.news | reverse -%}
+    {% for item in news limit: site.news_limit %}
+    <li class="news-item">
+      <time class="news-date" datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%b %-d, %Y" }}</time>
+      <div class="news-body">
+        {% if item.inline -%}
+          {{ item.content | markdownify | remove: '<p>' | remove: '</p>' | emojify }}
+        {%- else -%}
+          <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        {%- endif %}
+      </div>
+    </li>
+    {%- endfor %}
+  </ol>
+  {%- else -%}
+  <p>No news so far...</p>
+  {%- endif %}
+</section>

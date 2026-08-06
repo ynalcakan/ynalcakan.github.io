@@ -6,19 +6,23 @@ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  font-family: $font-family-sans;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
 
   h1, h2, h3, h4, h5, h6 {
-    scroll-margin-top: 66px;
+    scroll-margin-top: 78px;
+    font-family: $font-family-serif;
+    letter-spacing: -0.01em;
+    line-height: 1.25;
   }
 }
 
 body.fixed-top-nav {
-  // Add some padding for the nav-bar.
-  padding-top: 56px;
+  padding-top: 64px;
 }
 
 body.sticky-bottom-footer {
-  // Remove padding below footer.
   padding-bottom: 0;
 }
 
@@ -26,26 +30,114 @@ body.sticky-bottom-footer {
   max-width: $max-content-width;
 }
 
-// Profile
-.profile {
-  img {
-    width: 100%;
-    padding-right: 20px;
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -3rem;
+  z-index: 1100;
+  padding: 0.5rem 0.85rem;
+  background: var(--global-theme-color);
+  color: #fff !important;
+  border-radius: 0.4rem;
+  text-decoration: none !important;
+  font-weight: 600;
+
+  &:focus {
+    top: 0.75rem;
   }
 }
 
-// TODO: redefine content layout.
+main:focus {
+  outline: none;
+}
 
+.site-section {
+  margin-top: 1rem;
+  padding-top: 0.25rem;
+}
 
-/******************************************************************************
- * Publications
- ******************************************************************************/
+.section-header {
+  margin-bottom: 1.25rem;
 
-// TODO: redefine publications layout.
+  h2 {
+    margin-bottom: 0.35rem;
+    font-size: 1.65rem;
+    color: var(--global-text-color);
+  }
+}
 
+.section-lead {
+  margin: 0;
+  color: var(--global-text-color-light);
+  font-size: 0.98rem;
+}
 
-/*****************************************************************************
-* Projects
-*****************************************************************************/
+// Hero
+.hero {
+  margin-bottom: 1rem;
+}
 
-// TODO: redefine projects layout.
+.hero-copy {
+  .post-title {
+    margin-bottom: 0.65rem;
+    font-size: clamp(2.1rem, 4vw, 2.85rem);
+  }
+
+  .desc {
+    font-size: 1.12rem;
+    color: var(--global-text-color-light);
+    margin-bottom: 0.75rem;
+  }
+}
+
+.hero-note {
+  margin: 0 0 1.25rem;
+  font-size: 1.02rem;
+  color: var(--global-text-color);
+}
+
+.profile-card {
+  width: 30%;
+  max-width: 250px;
+  margin: 0 0 2.25rem 4rem;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+
+  img,
+  .profile-photo {
+    width: 100%;
+    border-radius: 0.5rem;
+    padding-right: 0 !important;
+  }
+}
+
+.about-bio {
+  margin-top: 0;
+  font-size: 1.05rem;
+
+  h3 {
+    margin-top: 1.75rem;
+    margin-bottom: 0.85rem;
+    font-size: 1.25rem;
+  }
+
+  ul {
+    padding-left: 1.15rem;
+
+    li + li {
+      margin-top: 0.55rem;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .profile-card {
+    float: none !important;
+    width: 100%;
+    max-width: 240px;
+    margin: 0 auto 1.5rem;
+  }
+}

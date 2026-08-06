@@ -2,11 +2,12 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: 
+description: Teaching assistant experience at the Izmir Institute of Technology.
 nav: true
 published: true
 ---
-##### Teaching Assistant
+
+##### Teaching assistant
 
 * Image Understanding (CENG391)
 * Artificial Intelligence (CENG461)
@@ -14,4 +15,4 @@ published: true
 * Introduction to Deep Learning (CENG506)
 * Analysis and Design of Algorithms (CENG218)
 * Probability and Statistics (CENG222)
-* Programming Basisc (CENG113)
+* Programming Basics (CENG113)
